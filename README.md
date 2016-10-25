@@ -3,7 +3,7 @@
 [![Docker Stars](https://img.shields.io/docker/stars/dockette/alpine.svg?style=flat)](https://hub.docker.com/r/dockette/alpine/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/dockette/alpine.svg?style=flat)](https://hub.docker.com/r/dockette/alpine/)
 
-- predefined `dfx` [USER_NAME] user (uid 1000) [`USER_UID`]
+- predefined `dfx` [`USER_NAME`] user (uid 1000) [`USER_UID`]
 
 ## 3.1
 
