@@ -9,6 +9,6 @@ ENV USER_NAME dfx
 RUN apk update && \
     apk upgrade && \
     adduser -D -u $USER_UID $USER_NAME && \
-    rm -rf /var/cache/apk
+    rm -rf /var/cache/apk/*
 
 CMD ["/bin/sh"]
