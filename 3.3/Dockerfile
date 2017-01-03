@@ -3,8 +3,10 @@ FROM alpine:3.3
 MAINTAINER Milan Sulc <sulcmil@gmail.com>
 
 ENV TERM xterm
+
 ENV USER_UID 1000
 ENV USER_NAME dfx
+ENV USER_HOME /home/dfx
 
 RUN apk update && \
     apk upgrade && \
