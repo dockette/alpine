@@ -19,22 +19,6 @@ Base docker image based on Alpine Linux.
     - USER_NAME: dfx
     - USER_HOME: /home/dfx
 
-## 3.1
-
-`dockette/alpine:3.1`
-
-## 3.2
-
-`dockette/alpine:3.2`
-
-## 3.3
-
-`dockette/alpine:3.3`
-
-## 3.4
-
-`dockette/alpine:3.4`
-
 ## Edge
 
 [![Docker Stars](https://img.shields.io/docker/stars/dockette/edge.svg?style=flat)](https://hub.docker.com/r/dockette/edge/)
@@ -42,3 +26,27 @@ Base docker image based on Alpine Linux.
 
 `dockette/alpine:edge`
 `dockette/edge`
+
+## 3.6
+
+`dockette/alpine:3.6`
+
+## 3.5
+
+`dockette/alpine:3.5`
+
+## 3.4
+
+`dockette/alpine:3.4`
+
+## 3.3
+
+`dockette/alpine:3.3`
+
+## 3.2
+
+`dockette/alpine:3.2`
+
+## 3.1
+
+`dockette/alpine:3.1`
