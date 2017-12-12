@@ -27,6 +27,10 @@ Base docker image based on Alpine Linux.
 `dockette/alpine:edge`
 `dockette/edge`
 
+## 3.7
+
+`dockette/alpine:3.7`
+
 ## 3.6
 
 `dockette/alpine:3.6`
