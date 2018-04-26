@@ -19,38 +19,15 @@ Base docker image based on Alpine Linux.
     - USER_NAME: dfx
     - USER_HOME: /home/dfx
 
-## Edge
+## Usage
 
-[![Docker Stars](https://img.shields.io/docker/stars/dockette/edge.svg?style=flat)](https://hub.docker.com/r/dockette/edge/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/dockette/edge.svg?style=flat)](https://hub.docker.com/r/dockette/edge/)
-
-`dockette/alpine:edge`
-`dockette/edge`
-
-## 3.7
-
-`dockette/alpine:3.7`
-
-## 3.6
-
-`dockette/alpine:3.6`
-
-## 3.5
-
-`dockette/alpine:3.5`
-
-## 3.4
-
-`dockette/alpine:3.4`
-
-## 3.3
-
-`dockette/alpine:3.3`
-
-## 3.2
-
-`dockette/alpine:3.2`
-
-## 3.1
-
-`dockette/alpine:3.1`
+| Alpine | Image                   | Docker Hub |
+|--------|-------------------------|------------|
+| edge   | `dockette/alpine:edge`  | [v3.1](https://hub.docker.com/r/dockette/alpine) |
+| v3.7   | `dockette/alpine:v3.7`  | [v3.1](https://hub.docker.com/r/dockette/alpine) |
+| v3.6   | `dockette/alpine:v3.6`  | [v3.1](https://hub.docker.com/r/dockette/alpine) |
+| v3.5   | `dockette/alpine:v3.5`  | [v3.1](https://hub.docker.com/r/dockette/alpine) |
+| v3.4   | `dockette/alpine:v3.4`  | [v3.1](https://hub.docker.com/r/dockette/alpine) |
+| v3.3   | `dockette/alpine:v3.3`  | [v3.1](https://hub.docker.com/r/dockette/alpine) |
+| v3.2   | `dockette/alpine:v3.2`  | [v3.1](https://hub.docker.com/r/dockette/alpine) |
+| v3.1   | `dockette/alpine:v3.1`  | [v3.1](https://hub.docker.com/r/dockette/alpine) |
