@@ -23,11 +23,12 @@ Base docker image based on Alpine Linux.
 
 | Alpine | Image                   | Docker Hub |
 |--------|-------------------------|------------|
-| edge   | `dockette/alpine:edge`  | [v3.1](https://hub.docker.com/r/dockette/alpine) |
-| v3.7   | `dockette/alpine:v3.7`  | [v3.1](https://hub.docker.com/r/dockette/alpine) |
-| v3.6   | `dockette/alpine:v3.6`  | [v3.1](https://hub.docker.com/r/dockette/alpine) |
-| v3.5   | `dockette/alpine:v3.5`  | [v3.1](https://hub.docker.com/r/dockette/alpine) |
-| v3.4   | `dockette/alpine:v3.4`  | [v3.1](https://hub.docker.com/r/dockette/alpine) |
-| v3.3   | `dockette/alpine:v3.3`  | [v3.1](https://hub.docker.com/r/dockette/alpine) |
-| v3.2   | `dockette/alpine:v3.2`  | [v3.1](https://hub.docker.com/r/dockette/alpine) |
+| edge   | `dockette/alpine:edge`  | [edge](https://hub.docker.com/r/dockette/alpine) |
+| v3.8   | `dockette/alpine:v3.8`  | [v3.8](https://hub.docker.com/r/dockette/alpine) |
+| v3.7   | `dockette/alpine:v3.7`  | [v3.7](https://hub.docker.com/r/dockette/alpine) |
+| v3.6   | `dockette/alpine:v3.6`  | [v3.6](https://hub.docker.com/r/dockette/alpine) |
+| v3.5   | `dockette/alpine:v3.5`  | [v3.5](https://hub.docker.com/r/dockette/alpine) |
+| v3.4   | `dockette/alpine:v3.4`  | [v3.4](https://hub.docker.com/r/dockette/alpine) |
+| v3.3   | `dockette/alpine:v3.3`  | [v3.3](https://hub.docker.com/r/dockette/alpine) |
+| v3.2   | `dockette/alpine:v3.2`  | [v3.2](https://hub.docker.com/r/dockette/alpine) |
 | v3.1   | `dockette/alpine:v3.1`  | [v3.1](https://hub.docker.com/r/dockette/alpine) |
