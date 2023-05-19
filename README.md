@@ -25,6 +25,7 @@ Base docker image based on Alpine Linux.
 |--------|-------------------------|------------|
 | edge   | `dockette/alpine:edge`  | [edge](https://hub.docker.com/r/dockette/alpine)  |
 | v3.17  | `dockette/alpine:v3.17` | [v3.17](https://hub.docker.com/r/dockette/alpine) |
+| v3.18  | `dockette/alpine:v3.18` | [v3.18](https://hub.docker.com/r/dockette/alpine) |
 | v3.16  | `dockette/alpine:v3.16` | [v3.16](https://hub.docker.com/r/dockette/alpine) |
 | v3.15  | `dockette/alpine:v3.15` | [v3.15](https://hub.docker.com/r/dockette/alpine) |
 | v3.14  | `dockette/alpine:v3.14` | [v3.14](https://hub.docker.com/r/dockette/alpine) |

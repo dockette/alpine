@@ -27,6 +27,7 @@ jobs:
           - version: "3.15"
           - version: "3.16"
           - version: "3.17"
+          - version: "3.18"
 
       fail-fast: false
 
