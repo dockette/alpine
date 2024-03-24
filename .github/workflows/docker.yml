@@ -28,6 +28,7 @@ jobs:
           - version: "3.16"
           - version: "3.17"
           - version: "3.18"
+          - version: "3.19"
 
       fail-fast: false
 
