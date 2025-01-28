@@ -30,6 +30,7 @@ jobs:
           - version: "3.18"
           - version: "3.19"
           - version: "3.20"
+          - version: "3.21"
           - version: "edge"
 
       fail-fast: false
