@@ -46,3 +46,7 @@ Base docker image based on Alpine Linux.
 | v3.3   | `dockette/alpine:v3.3`  | [v3.3](https://hub.docker.com/r/dockette/alpine)  |
 | v3.2   | `dockette/alpine:v3.2`  | [v3.2](https://hub.docker.com/r/dockette/alpine)  |
 | v3.1   | `dockette/alpine:v3.1`  | [v3.1](https://hub.docker.com/r/dockette/alpine)  |
+
+## Maintenance
+
+See [how to contribute](https://github.com/dockette/.github/blob/master/CONTRIBUTING.md) to this package.
