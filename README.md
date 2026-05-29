@@ -1,15 +1,17 @@
-# Alpine
+<h1 align=center>Dockette / Alpine</h1>
 
-Base docker image based on Alpine Linux.
+<p align=center>
+   <a href="https://github.com/dockette/alpine/actions"><img src="https://github.com/dockette/alpine/actions/workflows/docker.yml/badge.svg" alt="GitHub Actions"></a>
+   <a href="https://hub.docker.com/r/dockette/alpine"><img src="https://img.shields.io/docker/pulls/dockette/alpine.svg" alt="Docker Hub pulls"></a>
+   <a href="https://github.com/sponsors/f3l1x"><img src="https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ea4aaa" alt="GitHub Sponsors"></a>
+   <a href="https://github.com/orgs/dockette/discussions"><img src="https://img.shields.io/badge/support-discussions-6f42c1" alt="Support/Discussions"></a>
+</p>
+
+<p align=center>
+   Base docker image based on Alpine Linux.
+</p>
 
 -----
-
-[![Docker Stars](https://img.shields.io/docker/stars/dockette/alpine.svg?style=flat)](https://hub.docker.com/r/dockette/alpine/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/dockette/alpine.svg?style=flat)](https://hub.docker.com/r/dockette/alpine/)
-
-## Discussion / Help
-
-[![Join the chat](https://img.shields.io/gitter/room/dockette/dockette.svg?style=flat-square)](https://gitter.im/contributte/contributte?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Image
 
@@ -25,7 +27,7 @@ Base docker image based on Alpine Linux.
 |--------|-------------------------|------------|
 | edge   | `dockette/alpine:edge`  | [edge](https://hub.docker.com/r/dockette/alpine)  |
 | v3.22  | `dockette/alpine:v3.22` | [v3.22](https://hub.docker.com/r/dockette/alpine) |
-| v3.21  | `dockette/alpine:v3.21` | [v3.20](https://hub.docker.com/r/dockette/alpine) |
+| v3.21  | `dockette/alpine:v3.21` | [v3.21](https://hub.docker.com/r/dockette/alpine) |
 | v3.20  | `dockette/alpine:v3.20` | [v3.20](https://hub.docker.com/r/dockette/alpine) |
 | v3.19  | `dockette/alpine:v3.19` | [v3.19](https://hub.docker.com/r/dockette/alpine) |
 | v3.18  | `dockette/alpine:v3.18` | [v3.18](https://hub.docker.com/r/dockette/alpine) |
