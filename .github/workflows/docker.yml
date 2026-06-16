@@ -3,6 +3,8 @@ name: "Docker"
 on:
   workflow_dispatch:
 
+  pull_request:
+
   push:
     branches: ["master"]
 
@@ -38,6 +40,7 @@ jobs:
   build:
     name: "Build (${{ matrix.version }})"
     needs: ["test"]
+    if: github.ref == 'refs/heads/master'
     strategy:
       matrix:
         version:
