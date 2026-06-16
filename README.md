@@ -1,15 +1,17 @@
-# Alpine
+<h1 align=center>Dockette / Alpine</h1>
 
-Base docker image based on Alpine Linux.
+<p align=center>
+   <a href="https://github.com/dockette/alpine/actions"><img src="https://github.com/dockette/alpine/actions/workflows/docker.yml/badge.svg" alt="GitHub Actions"></a>
+   <a href="https://hub.docker.com/r/dockette/alpine"><img src="https://img.shields.io/docker/pulls/dockette/alpine.svg" alt="Docker Hub pulls"></a>
+   <a href="https://github.com/sponsors/f3l1x"><img src="https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ea4aaa" alt="GitHub Sponsors"></a>
+   <a href="https://github.com/orgs/dockette/discussions"><img src="https://img.shields.io/badge/support-discussions-6f42c1" alt="Support/Discussions"></a>
+</p>
+
+<p align=center>
+   Base docker image based on Alpine Linux.
+</p>
 
 -----
-
-[![Docker Stars](https://img.shields.io/docker/stars/dockette/alpine.svg?style=flat)](https://hub.docker.com/r/dockette/alpine/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/dockette/alpine.svg?style=flat)](https://hub.docker.com/r/dockette/alpine/)
-
-## Discussion / Help
-
-[![Join the chat](https://img.shields.io/gitter/room/dockette/dockette.svg?style=flat-square)](https://gitter.im/contributte/contributte?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Image
 
@@ -21,31 +23,38 @@ Base docker image based on Alpine Linux.
 
 ## Usage
 
-| Alpine | Image                   | Docker Hub |
-|--------|-------------------------|------------|
-| edge   | `dockette/alpine:edge`  | [edge](https://hub.docker.com/r/dockette/alpine)  |
-| v3.22  | `dockette/alpine:v3.22` | [v3.22](https://hub.docker.com/r/dockette/alpine) |
-| v3.21  | `dockette/alpine:v3.21` | [v3.20](https://hub.docker.com/r/dockette/alpine) |
-| v3.20  | `dockette/alpine:v3.20` | [v3.20](https://hub.docker.com/r/dockette/alpine) |
-| v3.19  | `dockette/alpine:v3.19` | [v3.19](https://hub.docker.com/r/dockette/alpine) |
-| v3.18  | `dockette/alpine:v3.18` | [v3.18](https://hub.docker.com/r/dockette/alpine) |
-| v3.17  | `dockette/alpine:v3.17` | [v3.17](https://hub.docker.com/r/dockette/alpine) |
-| v3.16  | `dockette/alpine:v3.16` | [v3.16](https://hub.docker.com/r/dockette/alpine) |
-| v3.15  | `dockette/alpine:v3.15` | [v3.15](https://hub.docker.com/r/dockette/alpine) |
-| v3.14  | `dockette/alpine:v3.14` | [v3.14](https://hub.docker.com/r/dockette/alpine) |
-| v3.13  | `dockette/alpine:v3.13` | [v3.13](https://hub.docker.com/r/dockette/alpine) |
-| v3.12  | `dockette/alpine:v3.12` | [v3.12](https://hub.docker.com/r/dockette/alpine) |
-| v3.11  | `dockette/alpine:v3.11` | [v3.11](https://hub.docker.com/r/dockette/alpine) |
-| v3.10  | `dockette/alpine:v3.10` | [v3.10](https://hub.docker.com/r/dockette/alpine) |
-| v3.9   | `dockette/alpine:v3.9`  | [v3.9](https://hub.docker.com/r/dockette/alpine)  |
-| v3.8   | `dockette/alpine:v3.8`  | [v3.8](https://hub.docker.com/r/dockette/alpine)  |
-| v3.7   | `dockette/alpine:v3.7`  | [v3.7](https://hub.docker.com/r/dockette/alpine)  |
-| v3.6   | `dockette/alpine:v3.6`  | [v3.6](https://hub.docker.com/r/dockette/alpine)  |
-| v3.5   | `dockette/alpine:v3.5`  | [v3.5](https://hub.docker.com/r/dockette/alpine)  |
-| v3.4   | `dockette/alpine:v3.4`  | [v3.4](https://hub.docker.com/r/dockette/alpine)  |
-| v3.3   | `dockette/alpine:v3.3`  | [v3.3](https://hub.docker.com/r/dockette/alpine)  |
-| v3.2   | `dockette/alpine:v3.2`  | [v3.2](https://hub.docker.com/r/dockette/alpine)  |
-| v3.1   | `dockette/alpine:v3.1`  | [v3.1](https://hub.docker.com/r/dockette/alpine)  |
+The `edge` tag tracks Alpine edge. It is rolling and unstable, so prefer a pinned `3.x` tag for reproducible builds.
+
+### Maintained Images
+
+| Alpine | Image                  | Docker Hub |
+|--------|------------------------|------------|
+| edge   | `dockette/alpine:edge` | [edge](https://hub.docker.com/r/dockette/alpine/tags?name=edge) |
+| 3.22   | `dockette/alpine:3.22` | [3.22](https://hub.docker.com/r/dockette/alpine/tags?name=3.22) |
+| 3.21   | `dockette/alpine:3.21` | [3.21](https://hub.docker.com/r/dockette/alpine/tags?name=3.21) |
+
+### Legacy Images
+
+These tags are published for compatibility, but are not part of the maintained test matrix.
+
+| Alpine | Image                  | Docker Hub |
+|--------|------------------------|------------|
+| 3.20   | `dockette/alpine:3.20` | [3.20](https://hub.docker.com/r/dockette/alpine/tags?name=3.20) |
+| 3.19   | `dockette/alpine:3.19` | [3.19](https://hub.docker.com/r/dockette/alpine/tags?name=3.19) |
+| 3.18   | `dockette/alpine:3.18` | [3.18](https://hub.docker.com/r/dockette/alpine/tags?name=3.18) |
+| 3.17   | `dockette/alpine:3.17` | [3.17](https://hub.docker.com/r/dockette/alpine/tags?name=3.17) |
+| 3.16   | `dockette/alpine:3.16` | [3.16](https://hub.docker.com/r/dockette/alpine/tags?name=3.16) |
+| 3.15   | `dockette/alpine:3.15` | [3.15](https://hub.docker.com/r/dockette/alpine/tags?name=3.15) |
+| 3.14   | `dockette/alpine:3.14` | [3.14](https://hub.docker.com/r/dockette/alpine/tags?name=3.14) |
+| 3.13   | `dockette/alpine:3.13` | [3.13](https://hub.docker.com/r/dockette/alpine/tags?name=3.13) |
+| 3.12   | `dockette/alpine:3.12` | [3.12](https://hub.docker.com/r/dockette/alpine/tags?name=3.12) |
+| 3.11   | `dockette/alpine:3.11` | [3.11](https://hub.docker.com/r/dockette/alpine/tags?name=3.11) |
+| 3.10   | `dockette/alpine:3.10` | [3.10](https://hub.docker.com/r/dockette/alpine/tags?name=3.10) |
+| 3.9    | `dockette/alpine:3.9`  | [3.9](https://hub.docker.com/r/dockette/alpine/tags?name=3.9) |
+| 3.8    | `dockette/alpine:3.8`  | [3.8](https://hub.docker.com/r/dockette/alpine/tags?name=3.8) |
+| 3.7    | `dockette/alpine:3.7`  | [3.7](https://hub.docker.com/r/dockette/alpine/tags?name=3.7) |
+
+Alpine `3.1` through `3.6` directories remain in this repository, but their tags are not published by the current workflow.
 
 ## Maintenance
 
