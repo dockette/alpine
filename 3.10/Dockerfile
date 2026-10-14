@@ -1,6 +1,6 @@
 FROM alpine:3.10
 
-MAINTAINER Milan Sulc <sulcmil@gmail.com>
+LABEL maintainer="Milan Sulc <sulcmil@gmail.com>"
 
 ENV TERM xterm
 
